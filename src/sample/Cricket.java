@@ -2,7 +2,9 @@
  * Name : Shubham Vyas
  * Enroll : 200469159
  * Description : Blueprint of main class contains getter and setters and constructors
- * */
+ *  Date : 1/22/2022
+ * Time : 20:00
+ */
 package sample;
 
 //Blueprint Class
@@ -66,10 +68,10 @@ public class Cricket {
     //Method ToString to return data
     @Override
     public String toString() {
-        return "Cricket{" +
+        return
                 "Runs=" + Runs +
                 ", Name='" + Name + '\'' +
-                ", Boundaries=" + Boundaries +
-                '}';
+                ", Boundaries=" + Boundaries
+                ;
     }
 }
